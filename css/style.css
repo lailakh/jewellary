@@ -1,0 +1,1070 @@
+
+
+
+@font-face {
+    font-family: 'dosis';
+     src: url('../fonts/dosis.medium.ttf'); /* IE9 Compat Modes */
+    }
+
+
+ body{
+       
+  font-family: 'dosis', sans-serif;
+
+    }
+ 
+
+
+/*  general   */
+.left {
+  float:left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear:both;
+}
+
+
+
+.textwhite {
+  color:#fff;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.textleft{
+  text-align: left;
+}
+
+
+.white{
+  background: #fff;
+}
+
+
+.txtbold {
+  font-weight: bold;
+}
+
+.textgary { color:#8c8b8b;}
+
+.gary {
+  background: #faf9f9;
+}
+
+
+/*start header*/
+.cover {
+background: url(../img/jewelery.jpg);
+background-size:cover; 
+background-repeat: no-repeat;
+width:100%;
+
+
+}
+
+
+.button {
+  background: transparent;
+  color: #fff;
+  border:solid #fff 1px;
+
+
+}
+
+.button:hover{
+  background: #e92121;
+   border:solid #e92121 1px;
+}
+.textred {
+  color: #e92121;
+}
+
+.textleft {
+  text-align: left;
+}
+
+
+@media (max-width: 575px) { /*Mobile*/
+   body {
+    font-size: 14px;
+
+  }
+
+  h1 {
+   font-size:  1.6em;
+  }
+
+  h3{
+   font-size:  1.4em;
+  }
+
+  .logo {
+  padding-top: 20px;
+}
+
+
+ .btn-nav {
+   width: 25px;
+   height: 25px;
+   background: transparent;
+   color:#fff;
+   position: absolute;
+   top:20px;
+   right: 40px;
+
+  }
+
+  .btn-nav .fa {
+    font-size: 10px;
+  }
+
+   .header_bottom {
+  padding-top: 30px;
+  color:#fff;
+
+}
+
+.header_bottom h3 {
+  line-height: 2;
+}
+
+.button {
+  
+  width:130px;
+  height: 30px;
+  margin-top: 20px;
+   margin-bottom: 20px;
+
+
+
+}
+
+
+#nav{
+  display: none;
+}
+nav {
+  
+   padding-top: 50px;
+   position: absolute;
+   z-index: 1050;
+   right: 30px;
+  
+  
+}
+
+
+nav ul li {
+  list-style: none;
+ 
+  padding: 2px;
+
+  text-align: center;
+
+ border: 1px #fff solid;
+  
+
+
+}
+
+nav ul li a{
+ text-decoration: none;
+ color: #fff;
+}
+
+nav ul li a:hover{
+
+ color: #8a8a8a;
+}
+
+
+
+
+
+
+
+}
+@media (min-width: 576px) { 
+   body {
+    font-size: 13px;
+
+  }
+
+   h1 {
+   font-size:  1.5em;
+  }
+
+  h3{
+   font-size:  1.5em;
+  }
+
+.logo {
+  padding-top: 50px;
+}
+
+.btn-nav {
+  display: none;
+}
+
+
+nav {
+ 
+   padding-top: 50px;
+   left:0px;
+}
+nav ul li {
+  display: inline;
+  padding-left: 10px;
+
+
+}
+
+nav ul li a{
+ text-decoration: none;
+ color: #fff;
+}
+
+nav ul li a:hover{
+
+ color: #8a8a8a;
+}
+
+
+
+  .header_bottom {
+  padding-top: 40px;
+  color:#fff;
+
+}
+
+.header_bottom h3 {
+  line-height: 2;
+}
+
+.button {
+  
+  width:130px;
+  height: 30px;
+  margin-top: 25px;
+   margin-bottom: 25px;
+    -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+}
+
+
+ }
+@media (min-width: 768px) { 
+   body {
+    font-size: 14px;
+
+  }
+
+   h1 {
+   font-size:  2.4em;
+  }
+
+   h3 {
+   font-size:  1.2em;
+  }
+
+
+  .button {
+  
+  width:140px;
+  height: 40px;
+  margin-top: 30px;
+   margin-bottom: 30px;
+
+}
+
+
+nav {
+ 
+   padding-top: 50px;
+   display: block;
+   position: absolute;
+   left:0px;
+}
+nav ul li {
+  display: inline;
+  padding-left: 20px;
+
+
+}
+
+nav ul li a{
+ text-decoration: none;
+ color: #fff;
+}
+
+nav ul li a:hover{
+
+ color: #8a8a8a;
+}
+
+  
+
+
+
+  
+}
+@media (min-width: 992px) {
+   body {
+    font-size: 14px;
+
+  }
+
+  nav {
+    display: block;
+  }
+
+  .btn-nav {
+    display: none;
+  }
+
+  .header_bottom {
+  padding-top: 120px;
+  color:#fff;
+
+}
+
+.header_bottom h3 {
+  line-height: 2.5;
+}
+
+nav ul li {
+  display: inline;
+  padding-left: 35px;
+
+
+}
+
+
+
+.button {
+  
+  width:160px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+}
+
+
+ }
+@media (min-width: 1200px) {
+
+   body {
+    font-size: 16px;
+
+  }
+
+ 
+
+ .header_bottom {
+  padding-top: 150px;
+  color:#fff;
+
+}
+
+
+}
+
+/*end header*/
+
+/*INTERESTING history*/
+
+#instructing_history {
+
+   padding-top: 100px;
+
+}
+
+
+
+
+
+@media (max-width: 575px) { /*Mobile*/
+  #instructing_history {
+
+   padding-top: 20px;
+  
+
+}
+
+  #instructing_history p {
+  
+  color:#bcbcbc;
+  padding:20px;
+}
+
+  #instructing_history h1 {
+    padding-top: 20px;
+    line-height: 60px;
+     text-align: center;
+  }
+  
+  
+}
+@media (min-width: 576px) { 
+
+   #instructing_history {
+
+   padding-top: 20px;
+  
+
+}
+
+  #instructing_history p {
+  
+  color:#bcbcbc;
+  padding:20px;
+}
+
+  #instructing_history h1 {
+    padding-top: 20px;
+    line-height: 60px;
+     text-align: center;
+  }
+
+ 
+  
+   
+
+ }
+@media (min-width: 768px) { 
+
+
+   #instructing_history {
+
+   padding-top: 50px;
+
+}
+
+  #instructing_history p {
+  margin-bottom: 20px;
+   padding-left: 20px;
+    padding-right: 20px;
+ 
+}
+
+  #instructing_history h1 {
+  
+
+  }
+   
+
+  
+}
+@media (min-width: 992px) {
+  
+
+
+ }
+@media (min-width: 1200px) {
+  
+
+
+}
+
+/* end INTERESTING history*/
+
+/* how work*/
+
+#how_works {
+  text-align: center;
+  padding-top: 50px;
+
+}
+#how_works h2 {
+  line-height: 50px;
+}
+
+#how_works > div>  p {
+  margin-bottom: 20px;
+}
+
+hr{
+     height: 6px;
+     background: url(../img/hr-12.png) repeat-x 0 0;
+     border: 0;
+     padding-left: 10px;
+     margin-bottom: 20px;
+  }
+
+.how_works {
+    height: 200px;
+    padding: 15px;
+    text-align: left;
+}
+.how_works h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+
+
+@media (max-width: 575px) { /*Mobile*/
+
+  .how_works {
+    
+    text-align: center;
+}
+
+  
+}
+
+
+
+
+
+/* start MERCERY*/
+
+
+#mercery button {
+   background: #e92121;
+   border:solid #e92121 1px;
+   color:#fff;
+
+}
+
+
+
+
+
+
+@media (max-width: 575px) { /*Mobile*/
+
+   #mercery img {
+    width: 45%;
+    position: absolute;
+     position: relative;
+    left:120px;
+    
+  }
+
+   #mercery {
+   height: 490px;
+    background: #faf9f9;
+   text-align: center;
+   padding-top: 40px;
+  
+   
+    }
+
+    #mercery h2 {
+  line-height: 50px;
+}
+ 
+
+  #jewelery {
+  padding-top: 90px;
+  position: relative;
+ }
+
+ .jewelery img {
+  width: 98%;
+
+ }
+
+
+ .jwelery_heading {
+  position: absolute;
+  top:20px;
+  left:20px;
+ }
+  
+
+  .jwelery_info p {
+  
+
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+    
+}
+
+
+}
+@media (min-width: 576px) { 
+   #mercery img {
+    width: 90%;
+    
+  }
+
+    #mercery {
+  background: #faf9f9;
+  height: 420px;
+ 
+  padding-top: 100px;
+
+}
+
+#mercery h2 {
+  line-height: 50px;
+
+}
+
+
+#mercery p {
+  line-height: 20px;
+}
+
+ .jewelery img {
+  width: 98%
+
+ }  
+ 
+ #jewelery {
+  padding-top: 20px;
+ }
+
+ .jwelery_info p {
+   padding-right: 20px;
+
+  padding-top: 40px;
+
+    padding-bottom: 40px;
+}
+
+
+ }
+@media (min-width: 768px) { 
+
+   #mercery {
+ height:400px;
+    }
+
+   #mercery img {
+    width: 80%;
+    
+  }
+   
+.jewelery img {
+  width: 97%
+ }
+
+ .jwelery_info p {
+   padding-right: 40px;
+
+  padding-top: 40px;
+
+    padding-bottom: 40px;
+}
+
+  
+}
+@media (min-width: 992px) {
+
+
+   #mercery {
+ height:500px;
+    }
+
+
+  #mercery img {
+    width: 90%;
+
+  }
+
+ .jewelery img {
+  width: 98%
+ }  
+
+.jwelery_info p {
+   padding-right: 60px;
+
+  padding-top: 40px;
+
+    padding-bottom: 40px;
+}
+
+ }
+@media (min-width: 1200px) {
+
+
+   #mercery {
+ height:533px;
+    }
+
+
+    #mercery img {
+    width: 95%;
+
+  }
+  
+
+
+}
+
+
+/* end MERCERY*/
+
+/* why choose we*/
+
+
+@media (max-width: 575px) { /*Mobile*/
+
+  #choose_we {
+
+ padding-top: 50px;
+ padding-left: 40px;
+ padding-right: 20px;
+}
+
+ #choose_we h1 {
+
+ text-align: center; }
+#choose_we h3 {
+  line-height: 60px;
+}
+ 
+
+  
+  
+}
+@media (min-width: 576px) { 
+
+ #choose_we {
+
+ padding-top: 50px;
+  padding-left: 40px;
+ padding-right: 20px;
+}
+
+ #choose_we h1 {
+
+ text-align: center; }
+#choose_we h3 {
+  line-height: 60px;
+}
+ 
+  
+   
+
+ }
+@media (min-width: 768px) { 
+
+  #choose_we {
+  padding-top: 100px;
+}
+
+
+#choose_we h3{
+
+ line-height: 40px;
+
+}
+ 
+  .choose_we{
+  padding-left: 20px;
+  padding-right: 30px;
+  height: 160px;
+}
+   
+
+  
+}
+@media (min-width: 992px) {
+
+  .choose_we{
+  padding-left: 100px;
+  padding-right: 50px;
+  height: 160px;
+}
+
+ }
+@media (min-width: 1200px) {
+  
+
+
+}
+/*end why choose we*/
+
+/*comments_customer*/
+
+.comments_customer {
+  padding-bottom: 50px;
+
+}
+
+#comments_customer {
+  background:#faf9f9;
+   padding-top: 50px;
+}
+
+
+
+
+
+@media (max-width: 575px) { /*Mobile*/
+
+.comments_customer {
+  padding-top: 40px;
+  padding-left: 10px;
+}
+  
+
+  .fa-quote-left{
+  width: 40px;
+  height: 40px;
+  background: #e92121;
+  border-radius: 40px;
+  color:#fff;
+  padding-left: 15px;
+  line-height: 40px;
+}
+
+  
+  
+}
+@media (min-width: 576px) { 
+
+.comments_customer {
+  padding-top: 40px;
+  padding-left: 10px;
+}
+  
+.fa-quote-left{
+  width: 40px;
+  height: 40px;
+  background: #e92121;
+  border-radius: 40px;
+  color:#fff;
+  padding-left: 15px;
+  line-height: 40px;
+}
+  
+
+ }
+@media (min-width: 768px) { 
+
+.comments_customer {
+  padding-top: 40px;
+  padding-left: 10px;
+}
+   
+
+ .fa-quote-left{
+  width: 50px;
+  height: 50px;
+  background: #e92121;
+  border-radius: 50px;
+  color:#fff;
+  padding-left: 20px;
+  line-height: 50px;
+}  
+
+  
+}
+@media (min-width: 992px) {
+  
+
+  .comments_customer {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+
+ }
+@media (min-width: 1200px) {
+  
+
+
+}
+
+/* end comments customer*/
+/*photolog*/
+
+
+#photoblog {
+  padding-top: 80px;
+
+ 
+ }
+
+
+
+
+
+@media (max-width: 575px) { /*Mobile*/
+
+  #photo {
+margin-top : 30px;
+
+  position: relative;
+ }
+
+
+
+ .photo_heading{
+  position: absolute;
+  top:-50px;
+ 
+ }
+
+
+.photo img {
+    width: 90%;
+   
+} 
+
+ .photo_info p {
+  
+
+  padding-top: 40px;
+  padding-bottom: 20px;
+    padding-right: 20px;
+   padding-left: 20px;
+
+
+    
+}
+  
+  
+}
+@media (min-width: 576px) { 
+
+.photo img {
+    width: 98%;
+} 
+
+.photo_info p {
+   padding-right: 15px;
+   padding-left: 15px;
+
+  padding-top: 40px;
+
+    padding-bottom: 40px;
+}
+
+ }
+@media (min-width: 768px) { 
+.photo_info p {
+   padding-right: 40px;
+
+  padding-top: 40px;
+
+    padding-bottom: 40px;
+}
+
+
+  
+}
+@media (min-width: 992px) {
+  .photo_info p {
+   padding-right: 60px;
+
+  padding-top: 40px;
+
+    padding-bottom: 40px;
+}
+ 
+
+
+ }
+@media (min-width: 1200px) {
+.photo img {
+    width: 99%;
+}  
+
+
+}
+/*end photolog*/
+
+/*footer*/
+
+footer {
+  background: #141414;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+footer  h3 {
+  padding-bottom: 20px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul  li {
+  line-height: 40px;
+}
+
+footer ul  li a{
+  text-decoration: none;
+  color:#474747;
+}
+
+footer ul  li a:hover {
+color:#fff;
+
+}
+
+footer .fa {
+ color:#474747; 
+ padding-left: 20px;
+}
+footer p {
+  color: #474747;
+  padding-top: 120px; }
+
+footer p:hover {
+  color:#fff;
+}
+
+footer .fa:hover {
+  color:#fff;
+
+}
+
+@media (max-width: 575px) { /*Mobile*/
+
+footer p {
+  color: #474747;
+  padding-top: 20px; }
+
+  footer .fa {
+  padding-top: 20px;  
+ color:#474747; 
+ padding-left: 10px;
+}
+  
+  
+}
+@media (min-width: 576px) { 
+
+
+
+ }
+@media (min-width: 768px) { 
+
+
+  
+}
+@media (min-width: 992px) {
+
+
+
+ }
+@media (min-width: 1200px) {
+  
+
+
+}
+/*end  footer*/
+
+
+
