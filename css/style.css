@@ -16,6 +16,12 @@
 
 
 /*  general   */
+
+  .wow:first-child {
+      visibility: hidden;
+    }
+
+    
 .left {
   float:left;
 }
@@ -539,6 +545,36 @@ hr{
 }
 
 
+.jewelery  {
+  position: relative;
+
+}
+
+.jewelery   .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+  display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.jewelery:hover .overlay {
+  opacity: .6;
+}
+
 
 
 
@@ -893,6 +929,35 @@ hr{
  
  }
 
+.photo {
+  position: relative;
+
+}
+
+.photo  .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+  display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.photo:hover .overlay {
+  opacity: .6;
+}
 
 
 
